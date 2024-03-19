@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+.container {
+    max-width: 400px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    padding: 20px; /* Отступы внутри контейнера */
+    background-color: #ffffff; /* Цвет фона контейнера */
+    border-radius: 5px; /* Закругление углов */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+}
+
+h1 {
+    text-align: center; /* Выравнивание заголовка по центру */
+    color: #333333; /* Цвет текста */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Отступ между полями формы */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Ширина полей формы */
+    padding: 10px; /* Внутренние отступы */
+    border: 1px solid #cccccc; /* Обводка */
+    border-radius: 5px; /* Закругление углов */
+    box-sizing: border-box; /* Учитываем границу в общей ширине */
+}
+
+button {
+    width: 100%; /* Ширина кнопки */
+    padding: 10px; /* Внутренние отступы */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Указатель мыши при наведении */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+.text-center {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.text-muted {
+    color: #999999; /* Цвет текста для пометки */
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #007bff; /* Цвет текста ссылок */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание ссылки при наведении */
+}
+.input
+{
+    width: 100%; /* Ширина кнопки */
+    padding: 10px; /* Внутренние отступы */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Указатель мыши при наведении */
+    background-color: #0056b3;
+}
